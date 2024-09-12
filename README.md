@@ -16,7 +16,7 @@ This repository provides a step-by-step guide to implement a script that changes
    - Save the changes.
 
 ## Code Snippet
-    ```js
+    ```
      let originalTitle = document.title;
      let interval;
      document.addEventListener('visibilitychange', function() {
