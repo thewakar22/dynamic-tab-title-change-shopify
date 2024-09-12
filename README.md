@@ -16,7 +16,7 @@ This repository provides a step-by-step guide to implement a script that changes
    - Save the changes.
 
 ## Code Snippet
-    ```
+
      let originalTitle = document.title;
      let interval;
      document.addEventListener('visibilitychange', function() {
@@ -33,7 +33,6 @@ This repository provides a step-by-step guide to implement a script that changes
              document.title = originalTitle;
          }
      });
-      ```
 
 ## Conclusion
 Your GitHub repository is now set up, and the code is implemented in your Shopify theme. If you need any further assistance, feel free to ask!
