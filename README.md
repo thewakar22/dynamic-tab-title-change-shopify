@@ -16,7 +16,7 @@ This repository provides a step-by-step guide to implement a script that changes
    - Open the `theme.liquid` file.
    - Paste the script right above the `</head>` tag.
    - Save the changes.
-   - Dont forget to change **$\color{Orange}{\Huge}{\textsf{New Message 1}}$, $\color{Orange}{\textsf{New Message 2}}$** as of your liking.
+   - Dont forget to change **$\color{Orange}{$\Huge}{\textsf{New Message 1}}$, $\color{Orange}{\textsf{New Message 2}}$** as of your liking.
 
 ## Code Snippet
 ```
