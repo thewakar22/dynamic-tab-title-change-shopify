@@ -1,5 +1,6 @@
 # Dynamic tab Title Change Shopify
 Script to dynamically change the tab title when the user switches away from your site, drawing attention back to it with the alternating messages.
+
 ![](https://github.com/thewakar22/dynamic-tab-title-change-shopify/blob/main/screen-capture.gif)
 
 # Shopify Theme Script Implementation
