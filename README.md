@@ -1,5 +1,6 @@
 # Dynamic tab Title Change Shopify
 Script to dynamically change the tab title when the user switches away from your site, drawing attention back to it with the alternating messages.
+![](https://github.com/thewakar22/dynamic-tab-title-change-shopify/blob/main/screen-capture.gif)
 
 # Shopify Theme Script Implementation
 This repository provides a step-by-step guide to implement a script that changes the document title based on the visibility of the page in a Shopify theme.
@@ -7,6 +8,7 @@ This repository provides a step-by-step guide to implement a script that changes
 ## Implementing the Code in Shopify
 1. **Access Your Shopify Admin**:
    - Log in to your Shopify admin panel.
+
 2. **Edit the Theme**:
    - Go to **Online Store** > **Themes**.
    - Click on **Actions** > **Edit Code**.
@@ -34,6 +36,7 @@ This repository provides a step-by-step guide to implement a script that changes
          }
      });
 </script>
+```
 
 ## Resources
 I have created a GitHub repository to help people implement dynamic Shopify titles. This implementation is based on the code provided by Hey Tony Agency. Feel free to check it out and contribute!
