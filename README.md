@@ -15,7 +15,8 @@ This repository provides a step-by-step guide to implement a script that changes
    - Save the changes.
 
 ## Code Snippet
-
+```
+      <script>
      let originalTitle = document.title;
      let interval;
      document.addEventListener('visibilitychange', function() {
@@ -32,6 +33,7 @@ This repository provides a step-by-step guide to implement a script that changes
              document.title = originalTitle;
          }
      });
+</script>
 
 ## Resources
 I have created a GitHub repository to help people implement dynamic Shopify titles. This implementation is based on the code provided by Hey Tony Agency. Feel free to check it out and contribute!
