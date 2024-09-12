@@ -16,8 +16,7 @@ This repository provides a step-by-step guide to implement a script that changes
    - Save the changes.
 
 ## Code Snippet
-    ```script
-     <script>
+    ```javascript
      // Store the original title
      let originalTitle = document.title;
      let interval;
@@ -40,7 +39,6 @@ This repository provides a step-by-step guide to implement a script that changes
              document.title = originalTitle;
          }
      });
-     </script>
       ```
 
 ## Conclusion
