@@ -17,24 +17,24 @@ This repository provides a step-by-step guide to implement a script that changes
 
 ## Code Snippet
     ```javascript
-     // Store the original title
+     
      let originalTitle = document.title;
      let interval;
 
-     // Listen for visibility changes
+     
      document.addEventListener('visibilitychange', function() {
          if (document.hidden) {
-             // Define the messages to alternate between
+             
              let messages = ["New Message 1", "New Message 2"];
              let messageIndex = 0;
 
-             // Start an interval to alternate between messages
+             
              interval = setInterval(function() {
                  document.title = messages[messageIndex];
                  messageIndex = (messageIndex + 1) % messages.length;
-             }, 1000); // Change title every second
+             }, 1000); 
          } else {
-             // Clear the interval and restore the original title
+            
              clearInterval(interval);
              document.title = originalTitle;
          }
