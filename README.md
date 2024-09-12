@@ -33,5 +33,11 @@ This repository provides a step-by-step guide to implement a script that changes
          }
      });
 
-## Conclusion
-Your GitHub repository is now set up, and the code is implemented in your Shopify theme. If you need any further assistance, feel free to ask!
+## Resources
+
+### Dynamic Shopify Title Implementation
+
+I have created a GitHub repository to help people implement dynamic Shopify titles. This implementation is based on the code provided by Hey Tony Agency. Feel free to check it out and contribute!
+
+- **Repository Link:** Dynamic Shopify Title Implementation https://www.instagram.com/reel/C_xyxdQuu88/
+- **Instagram Source:** Matt Diamante https://www.instagram.com/heytony.agency/
