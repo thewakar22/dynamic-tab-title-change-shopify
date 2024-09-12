@@ -16,6 +16,7 @@ This repository provides a step-by-step guide to implement a script that changes
    - Open the `theme.liquid` file.
    - Paste the script right above the `</head>` tag.
    - Save the changes.
+   - Dont forget to change $\color{green}{\textsf{New Message 1}}$, "New Message 2" as of your liking.
 
 ## Code Snippet
 ```
@@ -25,7 +26,7 @@ This repository provides a step-by-step guide to implement a script that changes
      document.addEventListener('visibilitychange', function() {
          if (document.hidden) {
              
-             let messages = ["$\color{green}{\textsf{New Message 1}}$", "New Message 2"];
+             let messages = ["New Message 1", "New Message 2"];
              let messageIndex = 0;
              interval = setInterval(function() {
                  document.title = messages[messageIndex];
