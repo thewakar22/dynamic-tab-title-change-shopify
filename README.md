@@ -16,7 +16,7 @@ This repository provides a step-by-step guide to implement a script that changes
    - Save the changes.
 
 ## Code Snippet
-     ```html
+     ```javascript
      <script>
      // Store the original title
      let originalTitle = document.title;
