@@ -16,25 +16,19 @@ This repository provides a step-by-step guide to implement a script that changes
    - Save the changes.
 
 ## Code Snippet
-    ```javascript
-     
+    ```html
      let originalTitle = document.title;
      let interval;
-
-     
      document.addEventListener('visibilitychange', function() {
          if (document.hidden) {
              
              let messages = ["New Message 1", "New Message 2"];
              let messageIndex = 0;
-
-             
              interval = setInterval(function() {
                  document.title = messages[messageIndex];
                  messageIndex = (messageIndex + 1) % messages.length;
              }, 1000); 
-         } else {
-            
+         } else { 
              clearInterval(interval);
              document.title = originalTitle;
          }
