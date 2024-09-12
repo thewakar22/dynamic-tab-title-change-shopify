@@ -25,7 +25,7 @@ This repository provides a step-by-step guide to implement a script that changes
      document.addEventListener('visibilitychange', function() {
          if (document.hidden) {
              
-             let messages = ["New Message 1", "New Message 2"];
+             let messages = ["$\color{green}{\textsf{New Message 1}}$", "New Message 2"];
              let messageIndex = 0;
              interval = setInterval(function() {
                  document.title = messages[messageIndex];
